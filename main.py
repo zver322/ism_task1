@@ -22,7 +22,7 @@ def write_to_file(n, matrix, vector, filename):
 
 
 # Задаем массив размерностей n
-n_array = [10000, 50000, 100000, 150000]
+n_array = [10000, 100000, 150000, 200000]
 
 for n in n_array:
     # Генерируем вектор и матрицу
