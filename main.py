@@ -20,10 +20,8 @@ def write_to_file(n, matrix, vector, filename):
         # Записываем вектор
         file.write(" ".join(map(str, vector)))
 
-
 # Задаем массив размерностей n
-n_array = [10000, 100000, 150000, 200000]
-
+n_array = [5000, 10000, 15000, 20000]
 for n in n_array:
     # Генерируем вектор и матрицу
     vector, matrix = generate_vector_and_matrix(n)
